@@ -15,8 +15,6 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 	```
 	/vagrant-local/www/sitename-org$ git clone git@github.com:INN/umbrella-boilerplate.git /tmp/umbrella-boilerplate
-	/vagrant-local/www/sitename-org$ ls
-	htdocs/      umbrella-boilerplate/ vvv-hosts    vvv-init.sh  wp-cli.yml
 	```
 4. Copy this repository's contents to your new site:
 
