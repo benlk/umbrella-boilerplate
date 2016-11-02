@@ -1,5 +1,7 @@
 ## Creating a new site umbrella repository using this repository
 
+This continues from https://gist.github.com/benlk/e4f555eb817940b817354f598408e57c
+
 Using `sitename.org` as an example, and providing full pathnames in front of command-line prompts to help keep you located:
 
 1. When running `vv create`, make notes of the answers you provide to the script.
@@ -40,13 +42,16 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 	    initialize.sh
 	```
-7. Set up the 
-	```
-	/vagrant-local/www/sitename-org$ mv readme-template.md README.md
-	```
-	
+
 7. Clean up stuff from the boilerplate repository that will no longer be needed in the actual umbrella:
 	```
 	/vagrant-local/www/sitename-org$ rm ./initialize.sh
 	/vagrant-local/www/sitename-org$ rm docs/README.md
 	```
+
+8. Prepare to commit: use `git add` to add all relevant files.
+
+9. Commit: `git commit`
+
+
+This doesn't set any variables. This doesn't fill out any text. This just gets you the files.
