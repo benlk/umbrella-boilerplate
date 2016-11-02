@@ -1,5 +1,5 @@
 ## README
 
-See umbrella repository setup information in `docs/`
+See umbrella repository setup information in [docs/README.md](docs/README.md)
 
-Replace this README.md with an appropriately-edited `readme-template.md`
+This file will be replaced by running `./initialize.sh`
