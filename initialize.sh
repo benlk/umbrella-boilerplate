@@ -25,6 +25,7 @@ git submodule add git@github.com:INN/deploy-tools.git tools
 
 # add Largo at master, overriding the .gitignore on wp-content
 mkdir -p wp-content/themes/
+rm -r wp-content/themes/largo
 git submodule add -f git@github.com:INN/deploy-tools.git wp-content/themes/largo
 
 # Move readme-template.md over README.md
