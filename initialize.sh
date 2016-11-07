@@ -33,12 +33,19 @@ git submodule add -f git@github.com:INN/Largo.git wp-content/themes/largo
 
 # add INN's hosting management plugin as a must-use plugin
 # https://github.com/INN/client-hosting-manager
-mkdir -p wp-content/mu-plugins/
-rm -r wp-content/mu-plugins/client-hosting-manager
-git submodule add -f git@github.com:INN/client-hosting-manager.git wp-content/mu-plugins/client-hosting-manager
+mkdir -p wp-content/plugins/
+rm -r wp-content/plugins/client-hosting-manager
+git submodule add -f git@github.com:INN/client-hosting-manager.git wp-content/plugins/client-hosting-manager
 
 # Move readme-template.md over README.md
 if [ -f "readme-template.md" ]
 then
 	mv readme-template.md README.md
 fi
+
+# stage the git commit
+git add .git-ftp-ignore .gitignore fabfile.py README.md requirements.txt
+
+# cleanup
+rm initialize.sh
+rm -r docs/
