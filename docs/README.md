@@ -36,24 +36,21 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 	Changes to be committed:
 	  (use "git reset HEAD <file>..." to unstage)
 
-	    modified:   .gitmodules
-	    new file:   tools
-	    new file:   wp-content/themes/largo
-
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-
-	    initialize.sh
-	```
-
-7. Clean up stuff from the boilerplate repository that will no longer be needed in the actual umbrella:
+		new file:   .git-ftp-ignore
+		new file:   .gitignore
+		new file:   .gitmodules
+		new file:   README.md
+		new file:   fabfile.py
+		new file:   requirements.txt
+		new file:   tools
+		new file:   wp-content/plugins/client-hosting-manager
+		new file:   wp-content/themes/largo
 
 	```
-	/vagrant-local/www/sitename-org$ rm ./initialize.sh
-	/vagrant-local/www/sitename-org$ rm docs/README.md
-	```
 
-8. Prepare to commit: use `git add` to add all relevant files.
+	Note that that will remove the initialize.sh script and this README file.
+
+8. Prepare to commit: use `git add` to any other relevant files.
 
 9. Commit: `git commit`
 
