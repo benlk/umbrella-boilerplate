@@ -30,8 +30,9 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 6. Now, initialize the submodules and do some other things
 
 	```
-	/vagrant-local/www/sitename-org$ ./initialize.sh
-	/vagrant-local/www/sitename-org$ git status
+	/vagrant-local/www/sitename-org$ cd htdocs
+	/vagrant-local/www/sitename-org/htdocs$ ./initialize.sh
+	/vagrant-local/www/sitename-org/htdocs$ git status
 	On branch master
 	Changes to be committed:
 	  (use "git reset HEAD <file>..." to unstage)
