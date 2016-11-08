@@ -59,7 +59,7 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 8. Edit files to reflect the appropriate variables for this installation:
 	- `fabfile.py` - see comment in top of file
-	- `README.md` - perform find-and-replace with domain name
+	- `README.md` - perform find-and-replace with domain name, but also check the instructions from the `vv create` setup
 	- `.gitignore` - see comment at bottom of file; you need to add the child theme's directory name here
 
 9. Prepare to commit: use `git add` to add the child theme and any other files.
