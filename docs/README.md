@@ -51,6 +51,11 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 	Note that that will remove the initialize.sh script and this README file.
 
+7. Edit files to reflect the appropriate variables for this installation:
+	- `fabfile.py`
+	- `.gitignore`
+	- `README.md`
+
 8. Prepare to commit: use `git add` to any other relevant files.
 
 9. Commit: `git commit`
