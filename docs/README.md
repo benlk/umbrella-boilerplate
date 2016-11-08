@@ -51,14 +51,20 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 	Note that that will remove the initialize.sh script and this README file.
 
-7. Edit files to reflect the appropriate variables for this installation:
-	- `fabfile.py`
-	- `.gitignore`
-	- `README.md`
+7. Copy in the child theme, if necessary.
+	1. `cd wp-content/themes/`
+	2. `git clone git@bitbucket.org:projectlargo/theme-c-hit.git c-hit`: note the second argument to `git clone` specifying where to clone into
+	3. `rm -r c-hit/.git`: remove the .git directory from the child theme, making it no longer a git repository, but just a bunch of files
+	4. `cd ../../` : go back to the root of the project
 
-8. Prepare to commit: use `git add` to any other relevant files.
+8. Edit files to reflect the appropriate variables for this installation:
+	- `fabfile.py` - see comment in top of file
+	- `README.md` - perform find-and-replace with domain name
+	- `.gitignore` - see comment at bottom of file; you need to add the child theme's directory name here
 
-9. Commit: `git commit`
+9. Prepare to commit: use `git add` to add the child theme and any other files.
+
+10. Commit: `git commit`
 
 
 This doesn't set any variables. This doesn't fill out any text. This just gets you the files.
