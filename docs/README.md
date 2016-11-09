@@ -63,6 +63,7 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 	- `.gitignore` - see comment at bottom of file; you need to add the child theme's directory name here
 
 9. Prepare to commit: use `git add` to add the child theme and any other files.
+	- Note that the child theme is not a submodule in this setup - we are incorporating the files directly into the theme. If you don't see individual files within the child theme from the umbrella repository when you're running `git add`, something has gone wrong.
 
 10. Commit: `git commit`
 
