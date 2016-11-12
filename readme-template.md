@@ -30,6 +30,7 @@ After reviewing the options and creating the new install, partake in the followi
 5. `cd ..`
 6. Copy the contents of the new directory `umbrella-TKTKNAME/` into `htdocs/`, including all hidden files whose names start with `.` periods.
 	- the easy way to do this is: `rsync -rv umbrella-TKTKNAME/ htdocs`
+	- afterwards, you may want to `rm -rf umbrella-TKTKNAME` to save disk space
 7. `cd htdocs` to move to the folder where the umbrella now lives
 8. `workon fabric`
 9. `fab production wp.fetch_sql_dump` (or download via FTP if this doesn't work)
