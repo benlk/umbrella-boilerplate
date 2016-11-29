@@ -11,6 +11,7 @@ And then run:
 ```
 vv create
 ```
+You'll then see a series of prompts. Respond thusly:
 
 Prompt | Text to enter 
 ------------ | -------------
