@@ -31,6 +31,7 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 	```
 	/vagrant-local/www/sitename-org$ cd htdocs
+	/vagrant-local/www/sitename-org/htdocs$ git init
 	/vagrant-local/www/sitename-org/htdocs$ ./initialize.sh
 	/vagrant-local/www/sitename-org/htdocs$ git status
 	On branch master
