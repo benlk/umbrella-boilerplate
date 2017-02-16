@@ -44,7 +44,7 @@ then
 fi
 
 # stage the git commit
-git add .git-ftp-ignore .gitignore fabfile.py README.md requirements.txt
+git add .git-ftp-ignore .gitignore fabfile.py README.md requirements.txt LICENSE contributing.md
 
 # cleanup
 rm initialize.sh
