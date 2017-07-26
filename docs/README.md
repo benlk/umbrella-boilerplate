@@ -4,7 +4,7 @@ This continues from https://gist.github.com/benlk/e4f555eb817940b817354f598408e5
 
 Using `sitename.org` as an example, and providing full pathnames in front of command-line prompts to help keep you located:
 
-1. When running `vv create`, make notes of the answers you provide to the script.
+1. When running `vv create` or `yo wp`, make notes of the answers you provide to the script.
 2. From the directory above the wordpress installation, run `ls`. You should see something that looks like this:
 
 	```
