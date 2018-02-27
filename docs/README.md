@@ -45,7 +45,6 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 		new file:   fabfile.py
 		new file:   requirements.txt
 		new file:   tools
-		new file:   wp-content/plugins/client-hosting-manager
 		new file:   wp-content/themes/largo
 
 	```
@@ -71,3 +70,5 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 
 
 This doesn't set any variables. This doesn't fill out any text. This just gets you the files.
+
+If this repo is hosted on an account owned by INN, add [client-hosting-manager](https://github.com/INN/client-hosting-manager) as a submodule in `wp-content/plugins/client-hosting-manager`, and add the required constants to the site's wp-config.php after deploying, but before activating.
