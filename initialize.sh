@@ -31,11 +31,7 @@ mkdir -p wp-content/themes/
 rm -r wp-content/themes/largo
 git submodule add -f git@github.com:INN/Largo.git wp-content/themes/largo
 
-# add INN's hosting management plugin as a must-use plugin
-# https://github.com/INN/client-hosting-manager
 mkdir -p wp-content/plugins/
-rm -r wp-content/plugins/client-hosting-manager
-git submodule add -f git@github.com:INN/client-hosting-manager.git wp-content/plugins/client-hosting-manager
 
 # Move readme-template.md over README.md
 if [ -f "readme-template.md" ]
