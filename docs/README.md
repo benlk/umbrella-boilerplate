@@ -1,6 +1,6 @@
 ## Creating a new site umbrella repository using this repository
 
-This is referenced in the instructions for creating a new site and umbrella repository at https://github.com/INN/docs/blob/master/projects/largo/create-new-umbrella-repo.md, and covers the creation of the new umbrella repository.
+This is referenced in the instructions for creating a new site and umbrella repository at https://github.com/INN/docs/blob/master/projects/largo/umbrella-create-new-repo.md and covers the creation of the new umbrella repository.
 
 Using `sitename.org` as an example, and providing full pathnames in front of command-line prompts to help keep you located:
 
