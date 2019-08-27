@@ -104,7 +104,7 @@ Using `sitename.org` as an example, and providing full pathnames in front of com
 	1. `cd wp-content/themes/`
 	2. `git clone git@bitbucket.org:projectlargo/theme-c-hit.git c-hit`: note the second argument to `git clone` specifying where to clone into
 	3. `rm -r c-hit/.git`: remove the .git directory from the child theme, making it no longer a git repository, but just a bunch of files
-	4. Edit the child theme's `style.css` has `Template: largo` and not `Template: largo-dev`. [Edit the file](https://github.com/INN/umbrella-nhindepth/commit/1434e83c9f2461625b76395710ee840322a55d86) if necessary.
+	4. Edit the child theme's `style.css` has `Template: largo` and not `Template: largo-dev`. [Edit the file](https://github.com/INN/umbrella-nhindepth/commit/1434e83c9f2461625b76395710ee840322a55d86) if necessary. If this changes, make note of this fact, because that may require change or updates to configuration options in the site's database.
 	5. `cd ../../` : go back to the root of the project
 
 8. Edit files to reflect the appropriate variables for this installation:
