@@ -22,10 +22,6 @@
 # make sure we're in the top level of the git repository
 cd `git rev-parse --show-toplevel`
 
-# add INN/deploy-tools at master
-rm -r tools
-git submodule add git@github.com:INN/deploy-tools.git tools
-
 # add Largo at master, overriding the .gitignore on wp-content
 mkdir -p wp-content/themes/
 rm -r wp-content/themes/largo
@@ -40,7 +36,7 @@ then
 fi
 
 # stage the git commit
-git add .git-ftp-ignore .gitignore fabfile.py README.md requirements.txt LICENSE contributing.md
+git add .git-ftp-ignore .gitignore README.md LICENSE contributing.md
 
 # cleanup
 rm initialize.sh
