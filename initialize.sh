@@ -25,7 +25,7 @@ cd `git rev-parse --show-toplevel`
 # add Largo at master, overriding the .gitignore on wp-content
 mkdir -p wp-content/themes/
 rm -r wp-content/themes/largo
-git submodule add -f git@github.com:INN/Largo.git wp-content/themes/largo
+git submodule add -f https://github.com/INN/largo.git wp-content/themes/largo
 
 mkdir -p wp-content/plugins/
 
