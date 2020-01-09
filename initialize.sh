@@ -18,14 +18,16 @@
 # A: No. They're currently just checked out at the tip of the master branch.
 #    It's assumed that if you're setting up boilerplate, you're going to check
 #    out a needed commit yourself.
+# A: For Largo, kinda. It chooses the latest commit in the 'release' branch,
+#    which is usually only pushed to when making a new release.
 
 # make sure we're in the top level of the git repository
 cd `git rev-parse --show-toplevel`
 
-# add Largo at master, overriding the .gitignore on wp-content
+# add Largo at release, using -f to overriding the .gitignore on wp-content
 mkdir -p wp-content/themes/
 rm -r wp-content/themes/largo
-git submodule add -f https://github.com/INN/largo.git wp-content/themes/largo
+git submodule add -b release -f https://github.com/INN/largo.git wp-content/themes/largo
 
 mkdir -p wp-content/plugins/
 
